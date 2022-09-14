@@ -1,0 +1,29 @@
+<div class="container mt-3 border border-1 p-3">
+  <ul class="nav nav-pills nav-fill">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="accounts" routerLinkActive="active"
+        >Accounts</a
+      >
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" routerLink="clocks" routerLinkActive="active"
+        >Clocks</a
+      >
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" routerLink="calendars" routerLinkActive="active"
+        >Calendars</a
+      >
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" routerLink="test" routerLinkActive="active">Test</a>
+    </li>
+  </ul>
+
+  <div class="mt-3">
+    <router-outlet></router-outlet>
+  </div>
+</div>
